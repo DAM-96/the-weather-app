@@ -22,7 +22,7 @@ let recentSearches = localStorage.getItem("recentCitySearches");
 const apiKey = "3746ad040f2bba488df537172b0ffc19";
 
 let geolocationAPI = {
-    baseURL : "http://api.openweathermap.org/geo/1.0/direct?q=",
+    baseURL : "https://api.openweathermap.org/geo/1.0/direct?q=",
     cityQuery : "Atlanta",
     country : "",
     state : "",
